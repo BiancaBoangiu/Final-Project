@@ -1,0 +1,158 @@
+*{
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+#app{
+  background-color:rgb(250, 235, 215, 0.4);
+}
+
+
+.navbar{
+	background-image: url("https://dermanis.gr/wp-content/uploads/2017/01/coffee-shop-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: 500px;
+	margin: 0px;
+	margin-bottom: 30px;
+	position: relative;
+  border-bottom: 2px solid #000;
+	
+}
+
+.navbar div {
+	display: flex;
+	justify-content: end;
+	font-weight: bold;
+	
+}
+.navbar a{
+	font-size: 20px;
+	margin: 3px;
+	padding: 8px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #000;
+	background-color:  rgba(255, 255, 255, 0.7);
+	border: 2px solid #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+}
+
+.logo {
+ 
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	font-weight: bold;
+	transform: translate(-50%, -40%);
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 5px;
+	padding: 120px 150px 120px 150px;
+	
+  }
+
+  #cart{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    background-color: #fff;
+    border-radius: 7px;
+  }
+
+  #cart .product-name{
+    width: 500px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none; 
+    color: #000; 
+  }
+  
+ #cart span{
+    font-size: 17px;
+    width: 170px;
+    text-align: center;
+  
+  }
+
+  #cart img{
+    width: 13s0px;
+    height: 80px;
+  }
+
+ #cart .product-details{
+    height: 85px;
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #000; 
+   
+ }
+
+ #cart .product-details:hover{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transform: translateY(8px);
+ }
+
+
+   
+#cart .buttons {
+  width: 220px;
+  border: none;
+  font-size: 30px;
+  text-align: center;
+ 
+}
+
+.buttons .increment-quantity, .buttons .decrement-quantity {
+  width: 50px;
+  height: 30px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #555555;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #dddddd;
+}
+
+.delete-product{
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  width: 80px;
+}
+
+.delete-product:hover{
+  color: #f52020;
+}
+
+.quantity {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+  width: 20px;
+  
+  
+}
+
+#sum{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
