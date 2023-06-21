@@ -9,8 +9,10 @@ let productPrice = 0;
 
 if (productId === null) {
   document.getElementById("details").innerHTML = "";
+  document.querySelector("footer").style.display = "none";
 } else
   window.addEventListener("load", async () => {
+    document.querySelector("footer").style.display = "block";
     const product = await getProductById(productId);
     productPrice = +product.price;
     document.getElementById("details").innerHTML =

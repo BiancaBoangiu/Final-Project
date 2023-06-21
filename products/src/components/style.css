@@ -178,7 +178,7 @@ body{
 	padding: 20px;
 	display: flex;
 	justify-content: space-around;
-	font-size: 13px;
+	font-size: 14px;
 	background-color: #000;
 	color: #fff;
 }
@@ -190,9 +190,10 @@ body{
 .footer-middle a{
 	text-decoration: none;
 	color: #fff;
+	font-size: 14px;
 }
 .footer-bottom{
-	font-size: 13px;
+	font-size: 14px;
 	background-color: #000;
 	color: #fff;
 	text-align: center;
